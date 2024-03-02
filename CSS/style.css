@@ -1,0 +1,294 @@
+/*
+Name: Abdulmajeed Saad Almalki
+Email: aalmalki1377@stu.kau.edu.sa
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'monospace', 'Courier New', 'Courier';
+}
+
+@media screen {
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .30)), url('../image/Ryidah.jpg');
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+}
+
+
+h1 {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 28px;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+#unOlist {
+    list-style-type: disc;
+    color: white;
+}
+
+#unOlist li {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+
+
+.header {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+}
+
+
+.imgAbout {
+    position: relative;
+    width: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#videoService {
+    position: relative;
+    width: 750px;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+}
+
+.content {
+    position: relative;
+    top: 75px;
+    left: 25%;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 24px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.content #start {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: absolute;
+    top: 115%;
+    left: 38%;
+    border: 2px solid white;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 100px;
+}
+
+
+
+.content #start a {
+    padding: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+#about1 {
+    position: relative;
+    top: 75px;
+    left: 10%;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 24px;
+    margin-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#about2 {
+    position: relative;
+    top: 75px;
+    left: 40%;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 24px;
+    margin-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#about3 {
+    position: relative;
+    top: 75px;
+    left: 10%;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 24px;
+    margin-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#serviceHeader {
+    position: relative;
+    width: 50%;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#services {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+#services div {
+    padding: 5px;
+    margin: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+#services div a {
+    font-size: 48px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 24px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+}
+
+#contact {
+    display: inline-block;
+    color: white;
+    margin: 25px;
+    position: relative;
+    width: 80%;
+}
+
+#contact fieldset {
+    position: relative;
+    padding: 25px;
+    width: 100%;
+}
+
+#contact fieldset label {
+    position: relative;
+    padding: 15px;
+    display: block;
+}
+
+#contact fieldset label input {
+    size: 50px;
+    width: 100%;
+    font-size: 20px;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+}
+
+#button {
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: none;
+    width: auto;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 24px;
+}
+
+#backB {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    left: 50%;
+    width: 30%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    border-radius: 24px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.footer #copyRight {
+    text-align: center;
+    font-size: 24px;
+}
